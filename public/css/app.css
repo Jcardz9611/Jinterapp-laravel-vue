@@ -76,3 +76,36 @@ header>h1{
     font-size: 20px;
 }
 
+.modal{
+    position: absolute;
+    float: left;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.modal img{
+    max-width: 500px;
+    max-height: 800px;
+}
+
+.vertical-center{
+     line-height: 12px;
+     width: 18px;
+     font-size: 8pt;
+     font-family: tahoma;
+     margin-top: 1px;
+     margin-right: 20px;
+     position:absolute;
+     top:0;
+     right:0;
+}
+
+.vertical-center button{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: red;
+}
+
